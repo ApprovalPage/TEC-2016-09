@@ -741,7 +741,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.instance_6 = new lib.pic();
 	this.instance_6.setTransform(-115,0,0.85,0.85);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(54).to({x:0},0).to({regX:0.2,regY:0.2,scaleX:0.58,scaleY:0.58,x:1.1,y:-6.9},5).wait(59).to({y:-117.9},5).to({_off:true},1).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(54).to({regX:0.2,regY:0.2,scaleX:0.58,scaleY:0.58,x:1.1,y:-6.9},5).wait(59).to({y:-117.9},5).to({_off:true},1).wait(2));
 
 	// bkgd
 	this.shape = new cjs.Shape();
